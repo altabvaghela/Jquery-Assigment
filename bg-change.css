@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 200px;
+
+}
+.box1,.box2,.box3,.box4,.box5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: crimson;
+}
+.box5{
+    background-color: yellow;
+}
